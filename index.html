@@ -110,10 +110,11 @@
       </div>
     </header>
     <div class="container">
-      <section id="products">
+      <section id="products" class="mt-5">
         <div class="row pt-2">
           <div class="col d-flex align-items-center border-bottom border-2">
             <svg
+              id="shopBtnLogo"
               width="28"
               height="25"
               viewBox="0 0 28 25"
@@ -128,8 +129,40 @@
             <p>Loja</p>
           </div>
         </div>
+        <div class="border border-2 mt-4 py-4 px-3">
+          <div class="row">
+            <div class="col d-flex align-items-center justify-content-between">
+              <h3>Produtos em destaque</h3>
+              <div class="input-group mb-3" style="max-width: 300px">
+                <span
+                  id="searchIconProducts"
+                  class="input-group-text border-end-0 rounded-start-pill"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24px"
+                    viewBox="0 -960 960 960"
+                    width="24px"
+                    fill="rgba(16, 24, 40, 0.38)"
+                  >
+                    <path
+                      d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"
+                    />
+                  </svg>
+                </span>
+                <input
+                  id="searchInput"
+                  name="searchInput"
+                  type="text"
+                  class="form-control border-start-0 ps-0 rounded-end-pill"
+                  placeholder="Procurar"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
-      <section id="promotion">Promoções</section>
+      <section id="promotion" class="mt-5">Promoções</section>
       <section id="contact">Contato</section>
     </div>
 

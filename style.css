@@ -51,13 +51,9 @@ header {
   font-size: 1.125em;
 }
 
-section {
-  height: 100vh;
-}
-
 /* Section products style */
 
-#products .row .col svg {
+#shopBtnLogo {
   width: 32px;
   height: 32px;
   margin-right: 15px;
@@ -65,6 +61,15 @@ section {
 #products .row .col p {
   font-size: 35px;
   margin: 0;
+}
+
+#searchInput::placeholder {
+  color: rgba(16, 24, 40, 0.38);
+}
+
+#searchInput,
+#searchIconProducts {
+  background-color: #f4f4f4;
 }
 
 /*End Section products style */

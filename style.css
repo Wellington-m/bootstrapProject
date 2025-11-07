@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  font-family: "Stack Sans Headline", sans-serif;
+}
+
+.navbar-nav .nav-link,
+.active {
+  color: #fff !important;
+}
+
+.nav-link {
+  text-align: center;
+}
+
+header {
+  background-image: url("Images/Section_Hero.png");
+  background-color: blueviolet;
+  top: 0;
+  background-size: cover; /* Preenche o espaço */
+  background-repeat: no-repeat; /* Evita repetição */
+  background-position: center;
+  height: 600px;
+  color: #fff;
+}
+
+#logo svg {
+  margin-right: 16px;
+}
+
+#logo h1 {
+  font-size: 20px;
+  color: #ffffff;
+  margin-right: 50px;
+  margin-top: 9px;
+}
+
+#main-content {
+  max-width: 630px;
+  margin-top: 50px;
+}
+
+#main-content h2 {
+  font-size: 50px;
+}
+
+#main-content p {
+  font-size: 1em;
+}
+
+#main-content button {
+  font-size: 1.125em;
+}
+
+section {
+  height: 100vh;
+}
+
+/* Section products style */
+
+#products .row .col svg {
+  width: 32px;
+  height: 32px;
+  margin-right: 15px;
+}
+#products .row .col p {
+  font-size: 35px;
+  margin: 0;
+}
+
+/*End Section products style */
+
+#promotion {
+  background-color: blue;
+}
+
+#contact {
+  background-color: aqua;
+}

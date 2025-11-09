@@ -19,8 +19,8 @@ header {
   background-size: cover; /* Preenche o espaço */
   background-repeat: no-repeat; /* Evita repetição */
   background-position: center;
-  height: 600px;
   color: #fff;
+  padding-bottom: 100px;
 }
 
 #logo svg {
@@ -80,10 +80,6 @@ header {
   background: linear-gradient(90deg, #101828 0%, #233250 100%);
   color: #ffffff;
   transition: all 0.3s ease-in-out;
-}
-
-.tab-content img {
-  max-width: 340px;
 }
 
 /*End Section products style */

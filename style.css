@@ -82,6 +82,10 @@ header {
   transition: all 0.3s ease-in-out;
 }
 
+.tab-content img {
+  max-width: 340px;
+}
+
 /*End Section products style */
 
 #promotion {

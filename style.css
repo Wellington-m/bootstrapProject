@@ -72,6 +72,16 @@ header {
   background-color: #f4f4f4;
 }
 
+#storeNav button {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+#storeNav .nav-link.active {
+  background: linear-gradient(90deg, #101828 0%, #233250 100%);
+  color: #ffffff;
+  transition: all 0.3s ease-in-out;
+}
+
 /*End Section products style */
 
 #promotion {

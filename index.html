@@ -12,11 +12,16 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <style>
+      .alturaTeste {
+        height: 500px;
+      }
+    </style>
   </head>
-  <body>
+  <body data-bs-spy="scroll" data-bs-target="#menu">
     <header>
       <div class="container">
-        <div class="row">
+        <div class="row position-sticky top-0 start-0">
           <div class="col navbar navbar-expand-lg px-2">
             <div id="logo" class="d-flex align-items-center">
               <svg
@@ -47,12 +52,7 @@
             >
               <ul class="nav nav-pills navbar-nav w-100 mt-3 mt-lg-0">
                 <li class="nav-item">
-                  <a
-                    class="nav-link active"
-                    href="#"
-                    onclick="event.preventDefault()"
-                    >Início</a
-                  >
+                  <a class="nav-link active" href="#cover">Início</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#products">Produtos</a>
@@ -70,6 +70,11 @@
             </nav>
           </div>
         </div>
+      </div>
+    </header>
+
+    <section id="cover">
+      <div class="container">
         <div class="row">
           <div class="col">
             <div id="main-content">
@@ -108,10 +113,11 @@
           </div>
         </div>
       </div>
-    </header>
+    </section>
+
     <main>
       <div class="container">
-        <section id="products" class="mt-5">
+        <section id="products" class="pt-5">
           <div class="row pt-2">
             <div class="col d-flex align-items-center border-bottom border-2">
               <svg
@@ -294,8 +300,8 @@
             </div>
           </div>
         </section>
-        <section id="promotion" class="mt-5">Promoções</section>
-        <section id="contact">Contato</section>
+        <section id="promotion" class="pt-5 alturaTeste">Promoções</section>
+        <section id="contact" class="alturaTeste">Contato</section>
       </div>
     </main>
 

@@ -89,6 +89,18 @@ header {
   background-color: transparent;
 }
 
+.services-img {
+  max-width: 350px;
+  max-height: 350px;
+}
+
+#services p {
+  font-weight: bold;
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+}
+
 #contact {
   background-color: aqua;
 }

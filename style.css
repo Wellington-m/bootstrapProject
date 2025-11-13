@@ -95,6 +95,8 @@ header {
 
 /*End Section products style */
 
+/* Sevices style */
+
 #services {
   background-color: transparent;
 }
@@ -111,12 +113,12 @@ header {
   text-align: center;
 }
 
-#contact {
-  background-color: aqua;
-}
-
 @media screen and (max-width: 992px) {
   #cover {
     background-position: center;
   }
 }
+
+/*End Sevices style */
+
+/* About Us style */

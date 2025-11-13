@@ -121,4 +121,10 @@ header {
 
 /*End Sevices style */
 
-/* About Us style */
+/* Our Team style */
+
+#ourTeam .card-body p {
+  color: rgba(16, 24, 40, 0.5);
+}
+
+/* End Our Team style */

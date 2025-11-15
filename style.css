@@ -132,9 +132,20 @@ header {
 /* Get In Touch style */
 
 #getInTouch {
-  width: 100vw;
   background-color: #101828;
-  padding-top: 70px;
+  padding: 70px 0 70px 0;
   margin-bottom: 400px;
+}
+
+.border-gradient {
+  border: 3px solid transparent;
+  border-image: linear-gradient(135deg, #243961 0%, #101828 100%);
+  border-image-slice: 1;
+  border-radius: 0.75rem; /* arredondado */
+}
+
+.bg-fill-gradient {
+  background: linear-gradient(135deg, #101828 0%, #233250 100%);
+  border-radius: 0.75rem; /* arredondado */
 }
 /* End Get In Touch style */

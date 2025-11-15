@@ -134,18 +134,26 @@ header {
 #getInTouch {
   background-color: #101828;
   padding: 70px 0 70px 0;
-  margin-bottom: 400px;
-}
-
-.border-gradient {
-  border: 3px solid transparent;
-  border-image: linear-gradient(135deg, #243961 0%, #101828 100%);
-  border-image-slice: 1;
-  border-radius: 0.75rem; /* arredondado */
 }
 
 .bg-fill-gradient {
   background: linear-gradient(135deg, #101828 0%, #233250 100%);
   border-radius: 0.75rem; /* arredondado */
+}
+
+.contactCard {
+  max-width: 272px;
+}
+
+.contactCard p {
+  color: white;
+}
+
+.cardText p:nth-child(1) {
+  margin-bottom: 0;
+}
+
+.cardText p:nth-child(2) {
+  color: #cecece;
 }
 /* End Get In Touch style */

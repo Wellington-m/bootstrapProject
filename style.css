@@ -128,3 +128,13 @@ header {
 }
 
 /* End Our Team style */
+
+/* Get In Touch style */
+
+#getInTouch {
+  width: 100vw;
+  background-color: #101828;
+  padding-top: 70px;
+  margin-bottom: 400px;
+}
+/* End Get In Touch style */

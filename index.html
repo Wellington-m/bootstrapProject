@@ -12,13 +12,8 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    <style>
-      .alturaTeste {
-        height: 500px;
-      }
-    </style>
   </head>
-  <body>
+  <body data-bs-spy="scroll" data-bs-target="#menuList">
     <header>
       <div class="container">
         <div class="row position-sticky top-0 start-0">
@@ -60,7 +55,10 @@
               class="collapse navbar-collapse justify-content-start"
               id="menu"
             >
-              <ul class="nav nav-pills navbar-nav w-100 mt-3 mt-lg-0">
+              <ul
+                id="menuList"
+                class="nav nav-pills navbar-nav w-100 mt-3 mt-lg-0"
+              >
                 <li class="nav-item">
                   <a class="nav-link active" href="#cover">Início</a>
                 </li>
